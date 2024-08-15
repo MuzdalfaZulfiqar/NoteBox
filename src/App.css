@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +39,160 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+* {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+nav .submitButton {
+  background-color: rgb(255 217 229) !important;
+  margin: 3px;
+  border: 1px solid rgb(255 217 229) !important;
+  color: black !important;
+}
+.loginSubmit {
+  background-color: rgb(255 217 229) !important;
+  margin: 3px;
+  border: 1px solid rgb(255 217 229) !important;
+  color: black !important;
+}
+
+.note {
+  /* background-color: rgb(141, 175, 165); */
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  /* box-shadow: 2px 2px 1px -2px rgb(0 135 104); */
+  height: auto;
+  text-wrap: wrap;
+  overflow: hidden;
+}
+
+.updateButton,
+.deleteButton {
+  background-color: rgba(25, 135, 84, 1);
+  margin-right: 20px;
+  color: white;
+}
+
+.plusIcon {
+  height: 40px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+
+.searchButton {
+  background-color: rgb(255 217 229) !important;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  display: none; /* Hide the default checkbox */
+}
+
+.custom-checkbox {
+  width: 24px; /* Size of the checkbox */
+  height: 24px; /* Size of the checkbox */
+  border-radius: 50%; /* Rounded corners */
+  border: 2px solid #000; /* Border color */
+  background-color: transparent; /* Default background */
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="checkbox"]:checked + .custom-checkbox {
+  background-color: #000; /* Dark background when checked */
+  border-color: #000; /* Border color when checked */
+}
+
+.custom-checkbox::after {
+  content: '\2714'; /* Unicode checkmark character */
+  font-size: 16px; /* Size of the tick mark */
+  color: white; /* Color of the tick mark */
+  position: absolute;
+  opacity: 0; /* Hidden by default */
+  transition: opacity 0.2s ease; /* Smooth transition */
+}
+
+input[type="checkbox"]:checked + .custom-checkbox::after {
+  opacity: 1; /* Show the tick mark when checked */
+}
+
+.checkbox-text {
+  margin-left: 8px; /* Spacing between the checkbox and text */
+  color: #000; /* Text color */
+}
+
+.cut{
+  text-decoration: line-through;
+}
+.imgset{
+  width: 50%;
+  height: 100%;
+  object-fit:cover ;
+  object-position: center;
+  opacity: 10;
+  /* border-radius: 40px; */
+}
+.yes{
+  opacity: 10;
+}
+
+*, *:before, *:after { box-sizing: border-box; }
+html { height: 100%; }
+body {
+  /* display:          flex; */
+  /* align-items:      center; */
+  /* justify-content:  center; */
+  min-height:       100%;
+  background-color: #f5f6f9;
+}
+
+.logo-container {
+  position: relative;
+  
+  &:before {
+    content:  "";
+    position: absolute;
+    top:      calc( 100% - 2px );
+    width:    100%;
+    height:   4px;
+    background-color: rgb(255 217 229) !important;
+    transform-origin: center center;
+    transform: scaleX( 0 );
+    
+    animation: line-animation 3s ease infinite alternate;
+  }
+  
+  h1#page-logo {
+    font: bold 6rem 'Arial', sans-serif;
+    
+    animation: clip-path-reveal-1 3s ease infinite alternate;
+  }
+}
+
+@keyframes line-animation {
+  0% { transform: scaleX( 0 ); }
+  15% { transform: scaleX( 0 ); }
+  20%, 25% { transform: scaleX( 1 ); top: calc( 100% - 2px ); }
+  50% { transform: scaleX( 1 ); top: 0px; }
+  70% { transform: scaleX( 0.2 ); top: 0px; }
+  80%, 100% { transform: scaleX( 0.2 ); top: 0px; }
+}
+
+@keyframes clip-path-reveal-1 {
+  0%, 25% { clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%); }
+  50% { clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); }
 }
