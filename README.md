@@ -28,12 +28,17 @@
 
 
 ## Preview
+### Landing Page
 ![image](https://github.com/user-attachments/assets/933ffd61-1e11-46bc-b0c7-7883760851d8)
 
+### Login Page
 ![image](https://github.com/user-attachments/assets/3804d0c1-082b-4fc6-9468-bbead86fd055)
 
+### Notes Page
 ![image](https://github.com/user-attachments/assets/2143566c-15b4-41a5-ae67-2eac7fa4dfd9)
 
+### TODO Page
 ![image](https://github.com/user-attachments/assets/fa214f2e-2508-4abd-a46b-8afecbf98852)
 
+### Update Page
 ![image](https://github.com/user-attachments/assets/dfc254aa-2452-4273-9fca-ede3fb5324f2)
