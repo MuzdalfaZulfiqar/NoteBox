@@ -4,6 +4,10 @@
 
 ## Features
 
+- **User Authentication:**
+  - Secure login and registration with JWT-based authentication
+  -  password hashing using bcrypt.js
+  -  
 - **Notes Management:**
   - Add, view, update, and delete notes.
   - Organize your notes with a colorful interface.
@@ -17,7 +21,7 @@
 
 - **Frontend:** React, Bootstrap
 - **Backend:** Node.js, Express.js
-- **Database:** MongoDB
+- **Database:** MongoDB Atlas
 
 <p align="center">
   <img  src="https://github.com/user-attachments/assets/48af5353-2283-4ce4-a019-59a562a98522" alt="Description" width="300"/>
