@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Note Box
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Note Box** is a simple and efficient notes management application built using the MERN stack (MongoDB, Express, React, Node.js). It allows users to manage notes and todo lists seamlessly. With a colorful and intuitive interface, Note Box makes it easy to stay organized and productive.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Notes Management:**
+  - Add, view, update, and delete notes.
+  - Organize your notes with a colorful interface.
 
-### `npm start`
+- **Todo List:**
+  - Add, delete, and update tasks.
+  - Mark tasks as complete.
+  - View all tasks in one place.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend:** React, Bootstrap
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
 
-### `npm test`
+<p align="center">
+  <img  src="https://github.com/user-attachments/assets/48af5353-2283-4ce4-a019-59a562a98522" alt="Description" width="300"/>
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Preview
+### Landing Page
+![image](https://github.com/user-attachments/assets/933ffd61-1e11-46bc-b0c7-7883760851d8)
 
-### `npm run eject`
+### Login Page
+![image](https://github.com/user-attachments/assets/3804d0c1-082b-4fc6-9468-bbead86fd055)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Notes Page
+![image](https://github.com/user-attachments/assets/2143566c-15b4-41a5-ae67-2eac7fa4dfd9)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### TODO Page
+![image](https://github.com/user-attachments/assets/fa214f2e-2508-4abd-a46b-8afecbf98852)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Update Page
+![image](https://github.com/user-attachments/assets/dfc254aa-2452-4273-9fca-ede3fb5324f2)
