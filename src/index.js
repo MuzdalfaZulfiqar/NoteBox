@@ -14,6 +14,7 @@ function Main() {
   const [showLandingPage, setShowLandingPage] = React.useState(
     // we m
     () => {
+      return true
       return localStorage.getItem('started') !== 'true';
     }
   );

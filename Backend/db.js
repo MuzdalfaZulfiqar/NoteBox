@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 // get this URI from your compass
 // writing it like /iNotebook will create a newdatabase
-const mongoURI = "mongodb://localhost:27017/iNotebook";
+const mongoURI = "mongodb+srv://muzdalfazulfiqar11:XkvbRCMmdSAgoU6C@cluster1.xgaug.mongodb.net/iNotebook";
 
 // create a function (lets say arrow function in this case) within this use you moonge to connect to URI you got from compass and a second parameter of call back function
 function connectToMongo(){
