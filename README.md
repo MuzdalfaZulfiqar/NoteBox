@@ -7,7 +7,7 @@
 - **User Authentication:**
   - Secure login and registration with JWT-based authentication
   -  password hashing using bcrypt.js
-  -  
+    
 - **Notes Management:**
   - Add, view, update, and delete notes.
   - Organize your notes with a colorful interface.
